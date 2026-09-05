@@ -1,5 +1,5 @@
-CREATE TABLE db_source.fact_schema.TBL_GITHUB4(NAME VARCHAR);
-CREATE TABLE db_source.fact_schema.TBL_GITHUB5(NAME VARCHAR);
+CREATE TABLE db_source.fact_schema.TBL_GITHUB8(NAME VARCHAR);
+CREATE TABLE db_source.fact_schema.TBL_GITHUB9(NAME VARCHAR);
 
-CREATE TABLE db_source.fact_schema.TBL_GITHUB6(NAME VARCHAR);
+CREATE TABLE db_source.fact_schema.TBL_GITHUB10(NAME VARCHAR);
 
