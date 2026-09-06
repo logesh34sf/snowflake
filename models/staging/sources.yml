@@ -1,0 +1,10 @@
+sources:
+   - name: raw
+     database: db_source
+     schema: fact_schema
+     tables:
+       - name: customers
+       - name: EMPLOYEE
+       - name: DEPARTMENT
+
+       - name: PROFESSIONS
