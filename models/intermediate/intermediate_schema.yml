@@ -1,0 +1,9 @@
+models:
+  - name: emp_departments
+    columns:
+      - name: ID
+        data_tests:
+          - unique
+          - not_null
+          
+          
