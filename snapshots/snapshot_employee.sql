@@ -13,6 +13,6 @@ SELECT
     id,
     department,
     salary
-FROM {{ ref('employee') }}
+FROM {{ ref('employee')}}
 
 {% endsnapshot %}
