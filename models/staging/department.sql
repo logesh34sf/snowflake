@@ -1,3 +1,3 @@
 {{config(materialized='view')}}
 
-select * from {{ source('raw', 'department') }}
+select *,department_id||department_name from {{ source('raw', 'department') }}
