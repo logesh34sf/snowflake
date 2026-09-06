@@ -7,16 +7,16 @@
     Try changing "table" to "view" below
 */
 
-{{ config(materialized='view') }}
+{{ config(materialized='table') }}
 
-with source_data as (
+with source_datas as (
 
    select * from {{ source('raw', 'employee') }}
 
 )
 
 select *
-from source_data
+from source_datas
 
 /*
     Uncomment the line below to remove records with null `id` values
