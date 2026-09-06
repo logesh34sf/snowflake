@@ -11,7 +11,7 @@
 
 with source_data as (
 
-   select * from {{ source('raw', 'customers') }}
+   select * from {{ source('raw', 'employee') }}
 
 )
 
