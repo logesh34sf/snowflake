@@ -1,0 +1,10 @@
+snapshots:
+  - name: snapshot_employee
+    description: "this is snapshot"
+    columns: 
+    - name: id
+      description: "this is id"
+    - name: department
+      description: "this is department"  
+    - name: salary
+      description: "this is salary"
