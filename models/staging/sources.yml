@@ -4,7 +4,7 @@ sources:
      schema: fact_schema
      tables:
        - name: customers
-       - name: EMPLOYEE
-       - name: DEPARTMENT
+       - name: employee
+       - name: department
 
        - name: PROFESSIONS
