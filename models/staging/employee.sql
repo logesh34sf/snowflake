@@ -9,14 +9,14 @@
 
 {{ config(materialized='table') }}
 
-with source_datas as (
+with source_datam as (
 
    select * from {{ source('raw', 'employee') }}
 
 )
 
 select *
-from source_datas
+from source_datam
 
 /*
     Uncomment the line below to remove records with null `id` values
