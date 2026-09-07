@@ -5,7 +5,7 @@
         target_schema='TRANSFORMED_SCHEMA',
         strategy='check',
         unique_key='id',
-        check_cols=['salary', 'department']
+        check_cols=['salary','department']
     )
 }}
 
